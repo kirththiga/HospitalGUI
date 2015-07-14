@@ -1,0 +1,99 @@
+/*
+    Created on : 1-June-2015, 12:02:09 PM
+    Author     : Kirththiga Murugupillai
+*/
+
+.root {
+    -fx-background-image: url("/images/background.jpg");
+}
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+	-fx-text-alignment: right;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+#form-text {
+    -fx-font-size: 32px;
+    -fx-font-family: "Arial Black";
+	-fx-text-alignment: center;
+    -fx-fill: #818181;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+#buttonPanel {
+    -fx-background-color: #D3D3D3;
+}
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 ); 
+}
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+#idBox, #patientIDBox, #firstNameBox, #lastNameBox, #diagnosisBox, 
+#admissionBox, #releaseBox, #dateOfMedBox, #medBox, #unitCostBox, 
+#unitsBox, #dateOfStayBox, #roomBox, #rateBox, #suppliesBox, #servicesBox,
+#dateOfSurgeryBox, #surgeryBox, #roomFeeBox, #surgeonBox{
+    -fx-padding: 5px;
+}
+#idBox {
+    -fx-spacing: 95px;
+}
+#patientIDBox, #rateBox {
+    -fx-spacing: 45px;
+}
+#firstNameBox {
+    -fx-spacing: 40px;
+}
+#lastNameBox {
+    -fx-spacing: 42px;
+}
+#diagnosisBox {
+    -fx-spacing: 48px;
+}
+#admissionBox, #dateOfSurgeryBox {
+    -fx-spacing: 7px;    
+}
+#releaseBox {
+    -fx-spacing: 24px;    
+}
+#dateOfMedBox {
+    -fx-spacing: 25px;    
+}
+#medBox {
+    -fx-spacing: 79px;
+}
+#unitCostBox  {
+    -fx-spacing: 49px;
+}
+#unitsBox  {
+    -fx-spacing: 76px;
+}
+#dateOfStayBox {
+    -fx-spacing: 29px;    
+} 
+#roomBox {
+    -fx-spacing: 15px;    
+} 
+#suppliesBox  {
+    -fx-spacing: 56px;
+}
+#servicesBox  {
+    -fx-spacing: 58px;
+}
+#surgeryBox {
+    -fx-spacing: 60px;    
+}
+#roomFeeBox {
+    -fx-spacing: 46px;    
+}
+#surgeonBox{
+    -fx-spacing: 30px;    
+}
+#btnRow1, #btnRow2 {
+    -fx-padding: 5px;
+    -fx-spacing: 5px;
+}
